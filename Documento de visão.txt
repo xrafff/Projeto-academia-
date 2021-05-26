@@ -1,0 +1,28 @@
+NEGÓCIO:
+- Qual é o negócio?
+Academia
+
+- Quais são os problemas/oportunidades?
+Criar um software para armazenar as matriculas com informações dos alunos(nome, idade, etc) e informações financeiras sobre cada matrícula, horário de entrada, de saída e ficha de treino.
+
+- Quais são os vocábulos de negócio? 
+Instrutor - funcionário da academia, geralmente professor de educação física, está lá para auxiliar os alunos
+Alunos - Pessoas matriculadas na academia.
+
+- Quais são os processos de negócio?
+Marcação de entrada/saída o sistema registra o horário de entrada e saída de cada aluno na hora em que ele passa pela catraca para sair ou entrar. 
+A ficha de treino do aluno é feita pelos instrutores, fica armazenada na matricula do aluno, e os alunos conseguem verificar essa ficha utiizando sua matrícula.
+- Quem são os stakeholders?
+	Funcionário (instrutores);
+	Alunos;
+	Proprietário;
+
+REQUISITO:
+=========
+- R0001 – O sistema deverá ser implementado utilizando o método Orientado a objetos.
+- R0002 – Os dados de entradas a serem solicitados deveram ser:nome, idade, particularidades físicas (condições que possam afetar o treino), data de pagamento, matricula, ficha de treino.
+- R0003 – O sistema deve possibilitar que os instrutores façam a inserção e alteração da ficha com os exercicios do aluno.
+- R0004 - O sistema deve possibilitar que os alunos consigam acessar suas fichas usando o número de sua matrícula
+- R0005 - O sistema deve verificar se o cliente está adimplente quando tenta passar pela catraca.
+- R0006 - O sistema deve bloquear a entrada caso o cliente não esteja adimplente.
+- R0007 - O sistema deve verificar se o cliente está adimplente quando tenta passar pela catraca.
